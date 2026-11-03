@@ -1,0 +1,24 @@
+Basic Linux Process Management
+ `ps` – Displays currently running processes.
+ `ps -f` – Displays processes in full format with details.
+ `ps aux` – Displays all running processes with detailed information.
+ `top` – Monitors running processes, CPU and memory usage in real time.
+ `htop` – Displays processes in an interactive interface.
+ `pidof process_name` – Displays the Process ID (PID) of a process.
+ `pgrep process_name` – Searches for a process by its name.
+ `sleep 100 &` – Runs a process in the background.
+ `jobs` – Displays background jobs in the current terminal.
+ `fg` – Brings a background process to the foreground.
+ `bg` – Resumes a stopped process in the background.
+ `kill PID` – Sends a termination signal to a process.
+ `kill -9 PID` – Forcefully terminates a process.
+ `pkill process_name` – Terminates processes using their names.
+ `nice -n 10 command` – Starts a process with a changed priority.
+ `renice 5 -p PID` – Changes the priority of an existing process.
+ `nohup command &` – Runs a process that can continue after terminal logout.
+ `free -m` – Displays memory usage in MB.
+
+- Process: A program that is currently running.
+- PID: Unique identification number of a process.
+- Foreground: Process running directly in the terminal.
+- Background: Process running without blocking the terminal.
