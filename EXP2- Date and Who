@@ -1,0 +1,20 @@
+Basic Linux Commands with Working
+
+- `date` – Displays the current date and time on the screen.
+- `who` – Displays the users currently logged into the system.
+- `date; who > file.txt` – Displays the date on screen and saves the output of `who` in a file.
+- `who > users.txt` – Stores the output of the `who` command in a file.
+- `who >> users.txt` – Adds the output of `who` to an existing file.
+- `ls` – Displays files and directories.
+- `pwd` – Shows the current working directory.
+- `cd ..` – Moves to the parent directory.
+- `mkdir test` – Creates a new directory named test.
+- `touch file.txt` – Creates an empty file.
+- `cat file.txt` – Displays the contents of a file.
+- `cp a.txt b.txt` – Copies one file into another.
+- `mv a.txt b.txt` – Renames a file.
+- `rm file.txt` – Deletes a file.
+- `grep "hello" file.txt` – Searches for the word hello in a file.
+- `find . -name "*.txt"` – Searches for all text files.
+- `cat file.txt | wc -l` – Counts the number of lines in a file.
+- `sed 's/first second/second first/' file.txt` – Swaps the words first and second wherever they appear together in the file.
