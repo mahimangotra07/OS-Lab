@@ -1,4 +1,4 @@
-
+BASIC BASH MANAGEMENT
 pwd	: Shows current directory
 ls	: Lists files and folders
 ls -l	: Shows detailed list
