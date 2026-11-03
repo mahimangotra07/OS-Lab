@@ -1,0 +1,26 @@
+
+pwd	: Shows current directory
+ls	: Lists files and folders
+ls -l	: Shows detailed list
+ls -a	: Shows hidden files
+ls -lh	: Shows file sizes in readable format
+date	: Displays date and time
+clear	: Clears terminal
+cd : folder	Enters a folder
+cd .. : 	Goes one directory back
+cd ../.. :	Goes two directories back
+cd ~ : 	Goes to home directory
+cd /	: Goes to root directory
+cd - : 	Goes to previous directory
+mkdir : test	Creates a directory
+rmdir : test	Removes an empty directory
+touch file.txt :	Creates an empty file
+cat file.txt: 	Displays file contents
+cp a.txt b.txt :	Copies a file
+mv a.txt b.txt: Renames or moves a file
+rm file.txt	: Deletes a file
+
+
+
+
+
