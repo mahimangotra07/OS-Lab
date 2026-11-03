@@ -1,0 +1,10 @@
+Convert file names to uppercase
+- `#!/bin/bash` – Runs the script using Bash.
+- `for file in "$@"` – Takes all file names given as command-line arguments one by one.
+- `do` – Starts the loop.
+- `newname=$(echo "$file" | tr 'a-z' 'A-Z')` – Converts the file name from lowercase to uppercase and stores it in `newname`.
+- `tr 'a-z' 'A-Z'` – Converts lowercase letters into uppercase.
+- `mv "$file" "$newname"` – Renames the original file with the new uppercase name.
+- `echo "Renamed to $newname"` – Displays the new file name.
+- `done` – Ends the loop.
+
