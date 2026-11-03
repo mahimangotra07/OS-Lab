@@ -1,0 +1,9 @@
+Filend Directory
+- `#!/bin/bash` – Tells the system to run the script using Bash.
+- `if` – Checks a condition, and `-d "$1"` checks whether the given argument is a directory.
+- `then` – Executes the command if the condition is true.
+- `echo` – Displays a message on the screen.
+- `elif` – Checks another condition if the first condition is false.
+- `-f "$1"` – Checks whether the given argument is a regular file.
+- `else` – Executes when both conditions are false.
+- `fi` – Ends the if-else condition.
