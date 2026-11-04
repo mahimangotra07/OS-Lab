@@ -1,0 +1,19 @@
+`stdio.h` – Provides standard input and output functions.
+`stdlib.h` – Contains functions for memory allocation and conversion.
+`unistd.h` – Provides system-related functions such as `sleep()`.
+`argc` – Represents the total number of command-line arguments.
+`argv[]` – Stores the arguments supplied to the program.
+`char *ptr` – Declares a pointer that holds a memory address.
+`atoi()` – Converts a string value into an integer.
+`malloc()` – Dynamically allocates memory during program execution.
+`NULL` – Represents a null pointer and is used to check allocation failure.
+`1024 * 1024` – Converts megabytes into bytes.
+`for` – Repeats a block of statements.
+`ptr[i] = 'A'` – Stores the character A in the allocated memory.
+`while(1)` – Creates an infinite loop.
+`sleep(1)` – Pauses program execution for one second.
+`free()` – Releases dynamically allocated memory.
+`gcc` – Compiles C source code into an executable program.
+`free -h` – Displays memory usage in human-readable format.
+`watch -n 1` – Refreshes command output after every one second.
+`Ctrl + C` – Terminates the currently running program.
