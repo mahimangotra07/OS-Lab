@@ -1,0 +1,14 @@
+`stdio.h` – Provides standard input and output functions.
+`unistd.h` – Provides system functions such as `sleep()`.
+`int` – Defines a variable for storing integer values.
+`&` – Returns the memory address of a variable.
+`%p` – Format specifier used to display memory addresses.
+`printf()` – Prints variable values or addresses on the screen.
+`while(1)` – Creates a loop that executes continuously.
+`sleep(1)` – Pauses program execution for one second.
+`gcc` – Compiles C source code into an executable file.
+`./filename` – Runs the compiled executable file.
+`&` – Executes a program in the background.
+`PID` – Unique identification number assigned to each process.
+`ASLR` – Address Space Layout Randomization; randomly changes memory addresses to improve security.
+`Ctrl + C` – Interrupts and stops the running program.
