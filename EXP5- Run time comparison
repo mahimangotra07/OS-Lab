@@ -1,0 +1,21 @@
+`#!/bin/bash` – Specifies Bash as the interpreter for executing the shell script.
+`echo` – Prints messages or results on the terminal.
+`read` – Accepts input from the user and saves it in a variable.
+`${str:start:len}` – Extracts a substring using the starting index and length.
+`${#str}` – Returns the total length of a string.
+`#include <stdio.h>` – Includes the standard library for input and output operations in C.
+`#include <string.h>` – Provides string-handling functions such as `strlen()`.
+`char` – Defines a character variable or an array of characters.
+`int` – Defines variables used to store integer values.
+`printf()` – Prints data and messages in a C program.
+`scanf()` – Reads user input in a C program.
+`for` – Executes a set of statements repeatedly while the condition is true.
+`strlen()` – Finds the number of characters in a string, excluding `'\0'`.
+`'\0'` – Null character indicating the end of a C string.
+`return 0` – Indicates successful program execution.
+`gcc` – GNU compiler used to compile C programs.
+`chmod +x` – Assigns executable permission to a shell script.
+`time` – Calculates the time required to execute a command or program.
+`real` – Shows the actual elapsed time of execution.
+`user` – Shows the CPU time used by the program in user mode.
+`sys` – Shows the CPU time consumed by the operating system on behalf of the program.
