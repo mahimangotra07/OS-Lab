@@ -1,0 +1,6 @@
+Commands:
+who` – Displays currently logged-in users.
+whoami` – Displays the current username.
+date` – Displays current system date and time.
+Shell Script` – Automates the process using Linux commands.
+exit – Terminates the execution of a shell script or exits the current shell; exit 0 indicates success, while exit 1 generally indicates an error.
