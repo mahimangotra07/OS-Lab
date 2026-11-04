@@ -1,0 +1,18 @@
+`sed` – Displays selected lines from a file.
+`head` – Displays the beginning of a file.
+`tail` – Displays the ending lines of a file.
+`$1` – First command-line argument (start line).
+`$2` – Second command-line argument (end line).
+`$3` – Third command-line argument (filename).
+`-n` – Suppresses automatic printing in sed.
+`p` – Prints selected lines.
+awk` – Processes and extracts specific lines.
+Command-Line Arguments – Values passed to a shell script.
+`#!/bin/bash` – Tells the system to execute the script using the Bash shell.
+`$#` – Gives the total number of arguments passed to the script.
+`-ne` – Checks whether two values are not equal.
+`if` – Checks a given condition.
+`then` – Executes commands when the condition is true.
+`echo` – Displays a message on the screen.
+`exit 1` – Terminates the script with an error status.
+`"${start},${end}p"` – Specifies the range of lines to be displayed, from the starting line to the ending line.
