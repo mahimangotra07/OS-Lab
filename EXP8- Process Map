@@ -1,0 +1,15 @@
+`pmap` – Shows the memory layout of a running process.
+`PID` – Unique process identification number.
+`pmap PID` – Displays memory mapping details of a given process.
+`pmap -x PID` – Provides extended memory usage information for a process.
+`top` – Monitors active processes and their resource consumption.
+`ps` – Displays details of currently running processes.
+`ps aux` – Lists all processes with detailed information.
+`grep` – Searches for a particular process or text.
+`&` – Executes a program in the background.
+`kill` – Sends a signal to terminate a process.
+`Address` – Represents the starting location of a memory region.
+`Kbytes` – Indicates memory size in kilobytes.
+`RSS` – Shows the physical RAM occupied by a process.
+`Dirty` – Represents modified memory pages that may need to be written to storage.
+`total` – Shows the combined memory usage of the process.
