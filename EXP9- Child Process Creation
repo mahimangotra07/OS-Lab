@@ -1,0 +1,13 @@
+`stdio.h` – Contains standard input and output functions.
+`stdlib.h` – Provides utility functions such as `exit()`.
+`unistd.h` – Provides system calls like `fork()`, `getpid()` and `getppid()`.
+`sys/wait.h` – Contains functions used for process synchronization, such as `wait()`.
+`fork()` – Creates a new process called the child process.
+`pid_t` – Data type used to store process IDs.
+`getpid()` – Returns the process ID of the current process.
+`getppid()` – Returns the process ID of the parent process.
+`wait()` – Suspends the parent process until a child process finishes.
+`exit(0)` – Ends the process with successful execution status.
+`printf()` – Displays output on the terminal.
+`if (pid == 0)` – Identifies whether the executing process is the child process.
+`else` – Executes the statements associated with the parent process.
